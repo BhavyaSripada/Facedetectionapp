@@ -1,0 +1,53 @@
+
+
+$theme-colors:(
+  'primary':#A62EDF,
+  'secondary':#121212,
+);
+
+$body-bg:#121212;
+$font-family-sans-serif:'Roboto Mono';
+
+
+.brandname
+{
+    margin-top:40px;
+}
+.main-page
+{
+    margin:90px auto;
+    width:90%;
+    height:80vh;
+    display:flex;
+
+
+.buttons{
+    display:flex;
+    flex-direction: column;
+    margin-top:250px;
+    margin-left:90px;
+    margin-bottom:100px;
+
+  .btn-1
+  { 
+    width:320px;
+    margin-bottom:100px;
+  }
+  .btn-2
+  {
+    width:320px;
+  }
+}
+  .main-img
+  {
+    display:flex;
+    margin-left:350px;
+    margin-top:0;
+    height:70vh;
+  }
+
+}
+
+
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&family=Open+Sans:wght@400;500&family=Poppins:wght@400;500&family=Roboto&family=Roboto+Mono&display=swap');
