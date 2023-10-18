@@ -24,14 +24,11 @@ const Home=()=> {
     <Container className="main-page">
   
         
-      
-        <div className="buttons">
+       <Image src={require("./image_1.png")} className="main-img" />
         <Button variant="primary" className="btn-1" onClick={()=>setGotoDetect(true)}>Detect my face</Button>
-        {<Button variant="primary" className="btn-2">Show me a sample</Button>}
-        </div>
-        
-        <Image src={require("./image_1.png")} className="main-img" />
        
+       
+      
         
       
       </Container>
