@@ -1,9 +1,11 @@
 import React,{useRef} from 'react';
 import * as facemesh from '@tensorflow-models/facemesh';
+import '@mediapipe/face_mesh';
 import Webcam from 'react-webcam';
 import { drawMesh } from "./utilities";
-
-
+import '@tensorflow/tfjs-core';
+import '@tensorflow/tfjs-backend-webgl';
+import * as tf from '@tensorflow/tfjs';
 
 
 function RealTime() {
