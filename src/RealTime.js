@@ -5,7 +5,6 @@ import Webcam from 'react-webcam';
 import { drawMesh } from "./utilities";
 import '@tensorflow/tfjs-core';
 import '@tensorflow/tfjs-backend-webgl';
-import * as tf from '@tensorflow/tfjs';
 
 
 function RealTime() {
